@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-glass-white: rgba(255, 255, 255, 0.03);
+  --color-glass-border: rgba(255, 255, 255, 0.12);
+  --color-steem-blue: #38bdf8;
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0f172a] text-[#f8fafc];
+    background-image: 
+      radial-gradient(circle at 0% 0%, #1e3a8a 0%, transparent 50%),
+      radial-gradient(circle at 100% 100%, #581c87 0%, transparent 50%),
+      radial-gradient(circle at 50% 50%, #0f172a 0%, #020617 100%);
+  }
+}

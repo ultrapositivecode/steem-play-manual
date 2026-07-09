@@ -1,0 +1,24 @@
+        "p-5 bg-white/5 border border-white/10 rounded-2xl flex flex-col gap-4 backdrop-blur-md transition-all",
+          <code className="text-[10px] text-steem-blue/70 font-mono truncate select-all">{mockKey}</code>
+      "relative min-h-screen selection:bg-steem-blue/30 font-sans transition-all duration-1000",
+                className="group relative px-10 py-5 bg-[#38bdf8] text-[#0f172a] rounded-xl font-bold text-xl transition-all shadow-lg shadow-steem-blue/30 active:scale-95 overflow-hidden"
+                            className="w-full bg-white/5 border border-white/10 rounded-xl px-6 py-4 text-lg outline-none focus:border-steem-blue/50 transition-all placeholder:text-[#94a3b8]/50"
+                            className="w-full h-48 bg-white/5 border border-white/10 rounded-xl px-6 py-4 text-lg outline-none focus:border-steem-blue/50 transition-all resize-none placeholder:text-[#94a3b8]/50 leading-relaxed"
+                            className="group px-10 py-4 bg-[#38bdf8] hover:bg-[#38bdf8]/90 text-[#0f172a] disabled:opacity-50 rounded-xl font-bold flex items-center gap-3 transition-all shadow-lg shadow-steem-blue/20 active:scale-95"
+                           "w-2.5 h-2.5 rounded-full transition-all",
+                        <button onClick={() => setCurrentScene(1)} className="p-2 bg-white/5 rounded-lg border border-white/10 hover:text-white transition-all">
+                               "w-full text-left p-4 rounded-xl border transition-all flex flex-col gap-1",
+                          className="w-full py-2 bg-white/10 hover:bg-white/20 rounded-lg text-[10px] font-bold transition-all border border-white/10"
+                                          className={cn("px-6 py-3 text-xs font-bold transition-all", keychainSimPhase === 'setup' ? "text-steem-blue border-b-2 border-steem-blue" : "text-[#94a3b8]")}
+                                          className={cn("px-6 py-3 text-xs font-bold transition-all disabled:opacity-30", keychainSimPhase === 'interact' ? "text-steem-blue border-b-2 border-steem-blue" : "text-[#94a3b8]")}
+                                                      className="flex items-center justify-between p-4 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl transition-all group"
+-all", showKeychainPopup ? "text-steem-blue scale-110" : "text-white/20")} />
+                                                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-steem-blue/50 transition-all font-bold"
+                                                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-steem-blue/50 transition-all font-mono"
+                                               "w-full bg-transparent border-b outline-none py-1 text-sm font-mono transition-all",
+                    className="flex items-center gap-2 text-[#94a3b8] hover:text-white transition-all bg-white/5 backdrop-blur-md px-6 py-3 rounded-xl border border-white/10 shadow-lg"
+                        "px-6 py-2 rounded-lg text-xs font-bold tracking-widest transition-all",
+                        "px-6 py-2 rounded-lg text-xs font-bold tracking-widest transition-all",
+                    className="p-3 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 text-[#94a3b8] hover:text-white transition-all shadow-lg"
+                                 className="text-[11px] text-[#94a3b8] hover:text-steem-blue transition-all uppercase tracking-widest font-bold border-b border-transparent hover:border-steem-blue"
+          @apply py-3.5 px-10 rounded-xl font-bold transition-all active:scale-95 text-[15px] flex items-center justify-center;
